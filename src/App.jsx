@@ -7,7 +7,7 @@ import "./global.css"
 
 function App() {
     return (
-        <div id="main-container">
+        <div id="root-container">
             <header>
                 <Logo />
                 <Navbar />

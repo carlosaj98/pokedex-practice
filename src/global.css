@@ -33,22 +33,25 @@
 
 body {
     font-family: "Poppins";
+    background-color: var(--primary);
+
 }
 
-#main-container {
-    width: 100vw;
-    height: 100vh;
+#root-container {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
-    background-color: var(--primary);
+
 }
 
+
+/** CONTENIDO HEADER **/
+
 header {
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 120px;
     padding: 0 1rem;
 }
 
@@ -56,49 +59,54 @@ header {
     display: flex;
     justify-content: left;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 #searchBar {
     width: 100%;
     height: 25px;
     border-radius: 20px;
-    border: 0;
+    border: none;
     padding: 0 2rem;
     background: url(./assets/search.svg) no-repeat scroll 10px 5px;
     background-color: var(--background);
     box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+/** CONTENIDO MAIN **/
+
 main {
-    width: calc(100vw - 15px);
-    height: 100vh;
-    margin-bottom: 10px;
+    width: calc(100% - 10px);
+    height: 100%;
     border-radius: 10px;
+    margin-bottom: 5px;
     background-color: var(--background);
     box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
     font-size: 24px;
     font-weight: 800;
-    margin: 1rem 2rem;
+    margin: 1rem 4rem;
     text-align: right;
     display: block;
 }
 
 section{
     width: 100%;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    gap: 4rem;
+    height: 100vh;
     padding: 2rem;
-
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 6rem;
 }
 
 .card-container{
     background-color: var(--bug);
-    width: 250px;
-    height: 350px;
+    aspect-ratio: 10/14;
 }
+
