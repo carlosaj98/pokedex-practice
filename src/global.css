@@ -1,0 +1,104 @@
+:root {
+    --primary: #dc0a2d;
+    --dark: #212121;
+    --medium: #666;
+    --light: #666;
+    --background: #efefef;
+    --white: #fff;
+    --bug: #a7b723;
+    --dark: #75574c;
+    --dragon: #7037ff;
+    --electric: #f9cf30;
+    --fairy: #e69eac;
+    --fighting: #c12239;
+    --fire: #f57d31;
+    --flying: #a891ec;
+    --ghost: #70559b;
+    --normal: #aaa67f;
+    --grass: #74cb48;
+    --ground: #dec16b;
+    --ice: #9ad6df;
+    --poison: #a43e9e;
+    --psychic: #fb5584;
+    --rock: #b7b9d0;
+    --steel: #b7b9d0;
+    --water: #6493eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+#main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary);
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    padding: 0 1rem;
+}
+
+#header-container {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#searchBar {
+    width: 100%;
+    height: 25px;
+    border-radius: 20px;
+    border: 0;
+    padding: 0 2rem;
+    background: url(./assets/search.svg) no-repeat scroll 10px 5px;
+    background-color: var(--background);
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    width: calc(100vw - 15px);
+    height: 100vh;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: var(--background);
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 1rem 2rem;
+    text-align: right;
+    display: block;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 2rem;
+
+}
+
+.card-container{
+    background-color: var(--bug);
+    width: 250px;
+    height: 350px;
+}
