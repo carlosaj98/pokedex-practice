@@ -2,9 +2,9 @@ import pokemons from "../data.json"
 import Navbar from "./components/Navbar"
 import Logo from "./components/Logo"
 import Counter from "./components/Counter"
-import Card from "./components/cards/Card"
+import Card from "./components/Card"
 import "./global.css"
-
+console.log(pokemons)
 function App() {
     return (
         <div id="root-container">
@@ -15,15 +15,7 @@ function App() {
             <main>
                 <Counter textCounter={pokemons.length} />
                 <section>
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    {pokemons.map((pokemon) => <Card name={pokemon.name}/>)}
                 </section>
             </main>
         </div>
