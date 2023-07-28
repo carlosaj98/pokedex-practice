@@ -1,0 +1,17 @@
+.headerCard{
+    color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem;
+}
+
+.headerCard h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.headerCard p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}

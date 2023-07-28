@@ -15,7 +15,14 @@ function App() {
             <main>
                 <Counter textCounter={pokemons.length} />
                 <section>
-                    {pokemons.map((pokemon) => <Card key={pokemon.name} name={pokemon.name} id={pokemon.pokedex_number}/>)}
+                    {pokemons.map((pokemon) => (
+                        <Card
+                            key={pokemon.name}
+                            bgcolor={pokemon.type1}
+                            name={pokemon.name}
+                            id={pokemon.pokedex_number}
+                        />
+                    ))}
                 </section>
             </main>
         </div>

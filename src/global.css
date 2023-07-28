@@ -34,7 +34,6 @@
 body {
     font-family: "Poppins";
     background-color: var(--primary);
-
 }
 
 #root-container {
@@ -43,9 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
-
 
 /** CONTENIDO HEADER **/
 
@@ -84,30 +81,86 @@ main {
     box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
-    
 }
 
-h1{
+h1 {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 600;
     margin: 1rem 4rem;
     text-align: right;
     display: block;
 }
 
-section{
+section {
     width: 100%;
     height: 100%;
-    padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 220px);
+    grid-template-columns: repeat(auto-fill, 280px);
     grid-template-rows: repeat(3, 1fr);
     justify-content: space-evenly;
-    gap: 2rem 6rem;
+    padding: 1rem;
+    gap: 2rem 4rem;
 }
 
-.card-container{
+.card-container {
+    height: 360px;
+}
+
+/** CARDS BACKGROUND **/
+
+.type-bug {
     background-color: var(--bug);
-    height: 300px;
 }
 
+.type-dark {
+    background-color: var(--dark);
+}
+
+.type-dragon {
+    background-color: var(--dragon);
+}
+.type-electric {
+    background-color: var(--electric);
+}
+.type-fairy {
+    background-color: var(--fairy);
+}
+.type-fighting {
+    background-color: var(--fighting);
+}
+.type-fire {
+    background-color: var(--fire);
+}
+.type-flying {
+    background-color: var(--flying);
+}
+.type-ghost {
+    background-color: var(--ghost);
+}
+.type-normal {
+    background-color: var(--normal);
+}
+.type-grass {
+    background-color: var(--grass);
+}
+.type-ground {
+    background-color: var(--ground);
+}
+.type-ice {
+    background-color: var(--ice);
+}
+.type-poison {
+    background-color: var(--poison);
+}
+.type-psychic {
+    background-color: var(--psychic);
+}
+.type-rock {
+    background-color: var(--rock);
+}
+.type-steel{
+    background-color: var(--steel);
+}
+.type-water{
+    background-color: var(--water);
+}

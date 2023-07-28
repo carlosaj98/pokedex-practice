@@ -1,3 +1,5 @@
+import {headerCard} from "../component-styles/HeaderCard.module.css"
+
 function HeaderCard({ name, id }) {
     function formatearID(numero) {
         if (numero < 10) {
@@ -11,10 +13,10 @@ function HeaderCard({ name, id }) {
     const idFormateado = formatearID(id)
 
     return (
-        <>
+        <div className={headerCard}>
             <h2>{name}</h2>
             <p>#{idFormateado}</p>
-        </>
+        </div>
     )
 }
 export default HeaderCard
