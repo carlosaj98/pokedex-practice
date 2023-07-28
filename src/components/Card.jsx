@@ -1,9 +1,11 @@
 import HeaderCard from "./cards-info/HeaderCard"
 
-function Card({name}) {
+function Card({name, id}) {
+
+
     return (
         <div className="card-container">
-            <HeaderCard name={name}/>
+            <HeaderCard name={name} id={id} />
         </div>
     )
 }
