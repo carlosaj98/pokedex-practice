@@ -120,16 +120,29 @@ section {
     border-radius: 10px;
     box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.3);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
 }
 
 .p-types{
+    width: 100%;
+    height: fit-content;
     display: flex;
-    justify-content: space-around;
-    padding-top: 2rem;
+    justify-content: center;
+    padding: 1.5rem 1rem 1rem 1rem;
     gap: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--white);
     font-weight: 600;
+}
+
+#aboutText{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 100%;
+    height: fit-content;
+    
 }
 

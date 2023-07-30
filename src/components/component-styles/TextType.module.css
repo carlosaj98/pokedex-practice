@@ -1,0 +1,55 @@
+.bug {
+    color: var(--bug);
+}
+.dark {
+    color: var(--dark);
+}
+
+.dragon {
+    color: var(--dragon);
+}
+.electric {
+    color: var(--electric);
+}
+.fairy {
+    color: var(--fairy);
+}
+.fighting {
+    color: var(--fighting);
+}
+.fire {
+    color: var(--fire);
+}
+.flying {
+    color: var(--flying);
+}
+.ghost {
+    color: var(--ghost);
+}
+.normal {
+    color: var(--normal);
+}
+.grass {
+    color: var(--grass);
+}
+.ground {
+    color: var(--ground);
+}
+.ice {
+    color: var(--ice);
+}
+.poison {
+    color: var(--poison);
+}
+.psychic {
+    color: var(--psychic);
+}
+.rock {
+    color: var(--rock);
+}
+.steel {
+    color: var(--steel);
+}
+.water {
+    color: var(--water);
+}
