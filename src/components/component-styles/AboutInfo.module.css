@@ -1,0 +1,111 @@
+.bug {
+    background-color: var(--bug);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+
+.dark {
+    background-color: var(--dark);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.dragon {
+    background-color: var(--dragon);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.electric {
+    background-color: var(--electric);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.fairy {
+    background-color: var(--fairy);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.fighting {
+    background-color: var(--fighting);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.fire {
+    background-color: var(--fire);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.flying {
+    background-color: var(--flying);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.ghost {
+    background-color: var(--ghost);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.normal {
+    background-color: var(--normal);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.grass {
+    background-color: var(--grass);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.ground {
+    background-color: var(--ground);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.ice {
+    background-color: var(--ice);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.poison {
+    background-color: var(--poison);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.psychic {
+    background-color: var(--psychic);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.rock {
+    background-color: var(--rock);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.steel {
+    background-color: var(--steel);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+.water {
+    background-color: var(--water);
+    height: fit-content;
+    padding: 0.2rem 1rem;
+    border-radius: 16px;
+}
+
+

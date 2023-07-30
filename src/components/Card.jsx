@@ -3,8 +3,8 @@ import ContentCard from "./cards-info/ContentCard"
 
 import styles from "./component-styles/CardTypes.module.css"
 
-function Card({ name, id, type1}) {
-    function typePokemonColor(type){
+function Card({ name, id, type1, type2 }) {
+    function typePokemonColor(type) {
         if (type === "bug") return "type-bug"
         if (type === "dark") return "type-dark"
         if (type === "dragon") return "type-dragon"
@@ -25,12 +25,13 @@ function Card({ name, id, type1}) {
         if (type === "water") return "type-water"
     }
 
-    const typeClass = typePokemonColor(type1)
+    const typeClass1 = typePokemonColor(type1)
+    const typeClass2 = typePokemonColor(type2)
 
     return (
-        <div className={`card-container ${styles[typeClass]}`}>
+        <div className={`card-container ${styles[typeClass1]}`}>
             <HeaderCard name={name} id={id} />
-            <ContentCard />
+            <ContentCard type1={type1} type2={type2} typeClass1={typeClass1} typeClass2={typeClass2}/>
         </div>
     )
 }

@@ -19,6 +19,7 @@ function App() {
                         <Card
                             key={pokemon.name}
                             type1={pokemon.type1}
+                            type2={pokemon.type2}
                             name={pokemon.name}
                             id={pokemon.pokedex_number}
                         />
