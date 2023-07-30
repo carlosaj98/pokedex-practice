@@ -22,6 +22,9 @@ function App() {
                             type2={pokemon.type2}
                             name={pokemon.name}
                             id={pokemon.pokedex_number}
+                            weight={pokemon.weight_kg}
+                            height={pokemon.height_m}
+                            moves={pokemon.abilities}
                         />
                     ))}
                 </section>

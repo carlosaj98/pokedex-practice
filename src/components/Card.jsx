@@ -3,7 +3,7 @@ import ContentCard from "./cards-info/ContentCard"
 
 import styles from "./component-styles/CardTypes.module.css"
 
-function Card({ name, id, type1, type2 }) {
+function Card({ name, id, type1, type2, weight, height, moves }) {
     function typePokemonColor(type) {
         if (type === "bug") return "type-bug"
         if (type === "dark") return "type-dark"
@@ -31,7 +31,15 @@ function Card({ name, id, type1, type2 }) {
     return (
         <div className={`card-container ${styles[typeClass1]}`}>
             <HeaderCard name={name} id={id} />
-            <ContentCard type1={type1} type2={type2} typeClass1={typeClass1} typeClass2={typeClass2}/>
+            <ContentCard
+                type1={type1}
+                type2={type2}
+                typeClass1={typeClass1}
+                typeClass2={typeClass2}
+                weight={weight}
+                height={height}
+                moves={moves}
+            />
         </div>
     )
 }
