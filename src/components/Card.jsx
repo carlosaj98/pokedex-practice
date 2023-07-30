@@ -1,7 +1,9 @@
 import HeaderCard from "./cards-info/HeaderCard"
-import styles from "./component-styles/Card.module.css"
+import ContentCard from "./cards-info/ContentCard"
 
-function Card({ name, id, bgcolor }) {
+import styles from "./component-styles/CardTypes.module.css"
+
+function Card({ name, id, type1}) {
     function typePokemonColor(type){
         if (type === "bug") return "type-bug"
         if (type === "dark") return "type-dark"
@@ -21,14 +23,14 @@ function Card({ name, id, bgcolor }) {
         if (type === "rock") return "type-rock"
         if (type === "steel") return "type-steel"
         if (type === "water") return "type-water"
-        
     }
 
-    const typeClass = typePokemonColor(bgcolor)
+    const typeClass = typePokemonColor(type1)
 
     return (
         <div className={`card-container ${styles[typeClass]}`}>
             <HeaderCard name={name} id={id} />
+            <ContentCard />
         </div>
     )
 }

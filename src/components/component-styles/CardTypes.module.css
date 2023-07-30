@@ -48,9 +48,9 @@
 .type-rock {
     background-color: var(--rock);
 }
-.type-steel{
+.type-steel {
     background-color: var(--steel);
 }
-.type-water{
+.type-water {
     background-color: var(--water);
 }
